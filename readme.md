@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+To set this up on a new machine, first [Install Docker](https://docs.docker.com/desktop/install/windows-install/).
+
+After installing Docker, make sure that this repository is cloned locally on your machine and then navigate to the directory.
+
+After navigating to the directory run `docker-compose up`. This will start the container for the repository. After the setup is done navigate to [http://localhost:3000/api/ping](http://localhost:3000/api/ping). You should receive a response from the page.
+
+Then navigate to [http://localhost:3001/register](http://localhost:3001/register) and create an account.
